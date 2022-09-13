@@ -1,0 +1,41 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-form {
+  width: 484px;
+  height: 583px;
+  position: relative;
+  align-self: stretch;
+  border-color: var(--dl-color-gray-black);
+  border-style: outset;
+  border-width: 1px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.component-textinput {
+  top: 150px;
+  left: 70px;
+  width: 362px;
+  height: 51px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.component-textinput1 {
+  top: 215px;
+  left: 70px;
+  width: 362px;
+  height: 51px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.component-button {
+  top: 310px;
+  left: 200px;
+  position: absolute;
+  transition: 0.3s;
+}
+.component-button:hover {
+  background-color: #1bd0ff;
+}
